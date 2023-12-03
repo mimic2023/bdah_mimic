@@ -1,0 +1,37 @@
+2023-11-26 10:58:40.005 EST [7328] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2023-11-26 10:58:40.010 EST [7328] LOG:  could not bind IPv6 address "::1": Permission denied
+2023-11-26 10:58:40.010 EST [7328] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2023-11-26 10:58:40.010 EST [7328] WARNING:  could not create listen socket for "localhost"
+2023-11-26 10:58:40.010 EST [7328] FATAL:  could not create any TCP/IP sockets
+2023-11-26 10:58:40.012 EST [7328] LOG:  database system is shut down
+2023-11-26 11:29:16.110 EST [36592] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2023-11-26 11:29:16.116 EST [36592] LOG:  could not bind IPv6 address "::1": Permission denied
+2023-11-26 11:29:16.117 EST [36592] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2023-11-26 11:29:16.117 EST [36592] WARNING:  could not create listen socket for "localhost"
+2023-11-26 11:29:16.117 EST [36592] FATAL:  could not create any TCP/IP sockets
+2023-11-26 11:29:16.119 EST [36592] LOG:  database system is shut down
+2023-11-26 11:30:17.829 EST [17208] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2023-11-26 11:30:17.833 EST [17208] LOG:  could not bind IPv6 address "::1": Permission denied
+2023-11-26 11:30:17.833 EST [17208] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2023-11-26 11:30:17.833 EST [17208] WARNING:  could not create listen socket for "localhost"
+2023-11-26 11:30:17.833 EST [17208] FATAL:  could not create any TCP/IP sockets
+2023-11-26 11:30:17.835 EST [17208] LOG:  database system is shut down
+2023-11-26 11:36:45.314 EST [33732] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2023-11-26 11:36:45.323 EST [33732] LOG:  listening on IPv6 address "::1", port 5432
+2023-11-26 11:36:45.323 EST [33732] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-11-26 11:36:45.390 EST [16516] LOG:  database system was shut down at 2023-11-26 10:57:32 EST
+2023-11-26 11:36:45.442 EST [33732] LOG:  database system is ready to accept connections
+2023-11-26 11:40:00.709 EST [280] FATAL:  database "mimic_extrac_db" does not exist
+2023-11-26 11:40:27.799 EST [20800] FATAL:  database "mimic_extract_db" does not exist
+2023-11-26 11:40:40.894 EST [13344] FATAL:  database "mimic_extract_db:5433" does not exist
+2023-11-26 11:41:45.396 EST [9208] LOG:  checkpoint starting: time
+2023-11-26 11:41:50.317 EST [9208] LOG:  checkpoint complete: wrote 46 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.763 s, sync=0.072 s, total=4.921 s; sync files=11, longest=0.058 s, average=0.007 s; distance=279 kB, estimate=279 kB; lsn=0/15B8A10, redo lsn=0/15B89D8
+2023-11-26 11:43:45.676 EST [34904] FATAL:  role "postgres" does not exist
+2023-11-26 11:43:59.223 EST [23616] FATAL:  database "vkorivi" does not exist
+2023-11-26 11:44:10.899 EST [8800] FATAL:  role "mimic_extract_db" does not exist
+2023-11-26 12:05:34.718 EST [15232] FATAL:  database "mimic_extract_db" does not exist
+2023-11-26 12:06:33.639 EST [33732] LOG:  could not open file "postmaster.pid": No such file or directory
+2023-11-26 12:06:33.639 EST [33732] LOG:  performing immediate shutdown because data directory lock file is invalid
+2023-11-26 12:06:33.640 EST [33732] LOG:  received immediate shutdown request
+2023-11-26 12:06:33.640 EST [33732] LOG:  could not open file "postmaster.pid": No such file or directory
+2023-11-26 12:06:33.687 EST [33732] LOG:  database system is shut down
